@@ -1,0 +1,23 @@
+# Raw / cache data (training Parquet files in data/ are tracked)
+data/hrrr_days/
+data/fcst_12z/
+data/hrrr_neigh/
+data/fcst_12z_neigh/
+data/dataset_*.parquet
+data/labels_*.parquet
+data/asos_*.csv
+
+# Outputs, logs, caches
+outputs/
+logs/
+reports/
+__pycache__/
+*.pyc
+.cache/
+experiments/__pycache__/
+experiments/*.pkl
+
+# Model backups and non-prod models
+models/backup_*/
+models/model_*_eval.*
+models/model_KHSV_*

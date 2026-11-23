@@ -178,7 +178,7 @@ Reports: `reports/metrics_<STN>.json`, `reports/test_predictions_<STN>.csv`, `re
 * Forecast-hour skill is lower than analysis skill (see report). The model learns HRRR-analysis → obs, so HRRR forecast error adds to it.
 
 ### Sky cover: clear vs cloudy (2026-11-14)
-Asked to separate Clear from Overcast/Mostly cloudy better. Previous model, reports and code: `models/backup_20261114/` (restore: copy `model_KMDQ_*`, `train.py`, `model_lib.py`, `predict_latest.py` and the `reports/` files back).
+Attempted to separate Clear from Overcast/Mostly cloudy better. Previous model, reports and code: `models/backup_20261114/` (restore: copy `model_KMDQ_*`, `train.py`, `model_lib.py`, `predict_latest.py` and the `reports/` files back).
 
 **Diagnosis** (`experiments/sky_diag.py` → `sky_diag_20261114.json`):
 * Labels are not the problem. When KMDQ reported OVC/BKN and the model said Clear, the HRRR itself had almost no cloud (analysis median total cloud 7%, low cloud 3%); the observed decks were mostly 4,000–9,000 ft. Clear hours under high cloud (above the 12,000 ft ceilometer limit) are already handled: only 79 Clear hours of 4,700 were called Overcast at f00.

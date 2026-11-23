@@ -1,0 +1,296 @@
+{
+ "f00_cm": {
+  "Clear": {
+   "Clear": 4382,
+   "Partly cloudy": 374,
+   "Mostly cloudy": 198,
+   "Overcast": 118,
+   "Fog/mist/haze": 97,
+   "Light rain/drizzle": 1
+  },
+  "Partly cloudy": {
+   "Clear": 172,
+   "Partly cloudy": 224,
+   "Mostly cloudy": 111,
+   "Overcast": 54,
+   "Fog/mist/haze": 4,
+   "Light rain/drizzle": 7
+  },
+  "Mostly cloudy": {
+   "Clear": 39,
+   "Partly cloudy": 80,
+   "Mostly cloudy": 136,
+   "Overcast": 70,
+   "Fog/mist/haze": 1,
+   "Light rain/drizzle": 1
+  },
+  "Overcast": {
+   "Clear": 79,
+   "Partly cloudy": 79,
+   "Mostly cloudy": 170,
+   "Overcast": 1114,
+   "Fog/mist/haze": 35,
+   "Light rain/drizzle": 50
+  },
+  "Fog/mist/haze": {
+   "Clear": 127,
+   "Partly cloudy": 28,
+   "Mostly cloudy": 16,
+   "Overcast": 80,
+   "Fog/mist/haze": 181,
+   "Light rain/drizzle": 5
+  },
+  "Light rain/drizzle": {
+   "Clear": 13,
+   "Partly cloudy": 16,
+   "Mostly cloudy": 23,
+   "Overcast": 113,
+   "Fog/mist/haze": 7,
+   "Light rain/drizzle": 196
+  }
+ },
+ "fc_cm": {
+  "Clear": {
+   "Clear": 8093,
+   "Partly cloudy": 742,
+   "Mostly cloudy": 421,
+   "Overcast": 403,
+   "Fog/mist/haze": 298,
+   "Light rain/drizzle": 37
+  },
+  "Partly cloudy": {
+   "Clear": 485,
+   "Partly cloudy": 430,
+   "Mostly cloudy": 306,
+   "Overcast": 246,
+   "Fog/mist/haze": 26,
+   "Light rain/drizzle": 29
+  },
+  "Mostly cloudy": {
+   "Clear": 154,
+   "Partly cloudy": 129,
+   "Mostly cloudy": 154,
+   "Overcast": 198,
+   "Fog/mist/haze": 10,
+   "Light rain/drizzle": 12
+  },
+  "Overcast": {
+   "Clear": 584,
+   "Partly cloudy": 238,
+   "Mostly cloudy": 352,
+   "Overcast": 1692,
+   "Fog/mist/haze": 119,
+   "Light rain/drizzle": 169
+  },
+  "Fog/mist/haze": {
+   "Clear": 80,
+   "Partly cloudy": 21,
+   "Mostly cloudy": 14,
+   "Overcast": 188,
+   "Fog/mist/haze": 148,
+   "Light rain/drizzle": 4
+  },
+  "Light rain/drizzle": {
+   "Clear": 71,
+   "Partly cloudy": 41,
+   "Mostly cloudy": 51,
+   "Overcast": 329,
+   "Fog/mist/haze": 50,
+   "Light rain/drizzle": 299
+  }
+ },
+ "f00_sky_f1": {
+  "Clear": 0.876,
+  "Partly cloudy": 0.321,
+  "Mostly cloudy": 0.272,
+  "Overcast": 0.715
+ },
+ "fc_sky_f1": {
+  "Clear": 0.828,
+  "Partly cloudy": 0.268,
+  "Mostly cloudy": 0.153,
+  "Overcast": 0.53
+ },
+ "hrrr_by_case_f00": {
+  "obsOVC_predOVC": {
+   "n": 1114,
+   "tcdc_med": 100.0,
+   "lcdc_med": 100.0,
+   "mcdc_med": 0.0,
+   "hcdc_med": 0.0,
+   "frac_hrrr_ceil_lt_3658m": 0.7998204667863554,
+   "frac_lcdc_gt50": 0.8491921005385996,
+   "frac_tcdc_lt20": 0.06014362657091562
+  },
+  "obsOVC_predCLR": {
+   "n": 118,
+   "tcdc_med": 7.0,
+   "lcdc_med": 3.0,
+   "mcdc_med": 0.0,
+   "hcdc_med": 0.0,
+   "frac_hrrr_ceil_lt_3658m": 0.025423728813559324,
+   "frac_lcdc_gt50": 0.03389830508474576,
+   "frac_tcdc_lt20": 0.6949152542372882
+  },
+  "obsCLR_predCLR": {
+   "n": 4382,
+   "tcdc_med": 1.0,
+   "lcdc_med": 0.0,
+   "mcdc_med": 0.0,
+   "hcdc_med": 0.0,
+   "frac_hrrr_ceil_lt_3658m": 0.015061615700593337,
+   "frac_lcdc_gt50": 0.00867183934276586,
+   "frac_tcdc_lt20": 0.7784116841624829
+  },
+  "obsCLR_predOVC": {
+   "n": 79,
+   "tcdc_med": 51.0,
+   "lcdc_med": 23.0,
+   "mcdc_med": 0.0,
+   "hcdc_med": 1.0,
+   "frac_hrrr_ceil_lt_3658m": 0.25316455696202533,
+   "frac_lcdc_gt50": 0.25316455696202533,
+   "frac_tcdc_lt20": 0.25316455696202533
+  },
+  "obsBKN_predCLR": {
+   "n": 198,
+   "tcdc_med": 7.0,
+   "lcdc_med": 2.0,
+   "mcdc_med": 0.0,
+   "hcdc_med": 0.0,
+   "frac_hrrr_ceil_lt_3658m": 0.025252525252525252,
+   "frac_lcdc_gt50": 0.030303030303030304,
+   "frac_tcdc_lt20": 0.6414141414141414
+  }
+ },
+ "obs_base_ft_obsOVC_predCLR": {
+  "count": 118.0,
+  "mean": 6434.0,
+  "std": 2980.0,
+  "min": 300.0,
+  "25%": 4600.0,
+  "50%": 6000.0,
+  "75%": 8875.0,
+  "max": 12000.0
+ },
+ "obs_base_ft_obsBKN_predCLR": {
+  "count": 198.0,
+  "mean": 5905.0,
+  "std": 3121.0,
+  "min": 100.0,
+  "25%": 3900.0,
+  "50%": 5000.0,
+  "75%": 7000.0,
+  "max": 12000.0
+ },
+ "obs_base_ft_obsOVC_predOVC": {
+  "count": 1114.0,
+  "mean": 2788.0,
+  "std": 2231.0,
+  "min": 100.0,
+  "25%": 1300.0,
+  "50%": 2000.0,
+  "75%": 3500.0,
+  "max": 12000.0
+ },
+ "ops_since_oct20_cm": {
+  "Clear": {
+   "Clear": 822,
+   "Partly cloudy": 24,
+   "Mostly cloudy": 17,
+   "Overcast": 25,
+   "Fog/mist/haze": 22,
+   "Light rain/drizzle": 2
+  },
+  "Partly cloudy": {
+   "Clear": 10,
+   "Partly cloudy": 2,
+   "Mostly cloudy": 2,
+   "Overcast": 7,
+   "Fog/mist/haze": 0,
+   "Light rain/drizzle": 0
+  },
+  "Mostly cloudy": {
+   "Clear": 3,
+   "Partly cloudy": 0,
+   "Mostly cloudy": 1,
+   "Overcast": 3,
+   "Fog/mist/haze": 0,
+   "Light rain/drizzle": 0
+  },
+  "Overcast": {
+   "Clear": 46,
+   "Partly cloudy": 8,
+   "Mostly cloudy": 21,
+   "Overcast": 125,
+   "Fog/mist/haze": 5,
+   "Light rain/drizzle": 18
+  },
+  "Fog/mist/haze": {
+   "Clear": 7,
+   "Partly cloudy": 0,
+   "Mostly cloudy": 1,
+   "Overcast": 5,
+   "Fog/mist/haze": 7,
+   "Light rain/drizzle": 0
+  },
+  "Light rain/drizzle": {
+   "Clear": 0,
+   "Partly cloudy": 0,
+   "Mostly cloudy": 0,
+   "Overcast": 13,
+   "Fog/mist/haze": 0,
+   "Light rain/drizzle": 10
+  }
+ },
+ "ops_since_nov6_cm": {
+  "Clear": {
+   "Clear": 242,
+   "Partly cloudy": 6,
+   "Mostly cloudy": 12,
+   "Overcast": 14,
+   "Fog/mist/haze": 2,
+   "Light rain/drizzle": 2
+  },
+  "Partly cloudy": {
+   "Clear": 7,
+   "Partly cloudy": 1,
+   "Mostly cloudy": 1,
+   "Overcast": 3,
+   "Fog/mist/haze": 0,
+   "Light rain/drizzle": 0
+  },
+  "Mostly cloudy": {
+   "Clear": 3,
+   "Partly cloudy": 0,
+   "Mostly cloudy": 0,
+   "Overcast": 3,
+   "Fog/mist/haze": 0,
+   "Light rain/drizzle": 0
+  },
+  "Overcast": {
+   "Clear": 27,
+   "Partly cloudy": 5,
+   "Mostly cloudy": 13,
+   "Overcast": 58,
+   "Fog/mist/haze": 0,
+   "Light rain/drizzle": 2
+  },
+  "Fog/mist/haze": {
+   "Clear": 7,
+   "Partly cloudy": 0,
+   "Mostly cloudy": 0,
+   "Overcast": 2,
+   "Fog/mist/haze": 2,
+   "Light rain/drizzle": 0
+  },
+  "Light rain/drizzle": {
+   "Clear": 0,
+   "Partly cloudy": 0,
+   "Mostly cloudy": 0,
+   "Overcast": 4,
+   "Fog/mist/haze": 0,
+   "Light rain/drizzle": 0
+  }
+ }
+}

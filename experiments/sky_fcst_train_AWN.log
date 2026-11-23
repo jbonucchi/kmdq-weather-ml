@@ -1,0 +1,6 @@
+A,W,N|f00+fc w1.0|s42 77 acc=0.623 macro_f1=0.321 sky_macro_f1=0.456 clear_f1=0.824 pc_f1=0.281 mc_f1=0.142 ovc_f1=0.576 obsOVC_predCLR=530 obsCLR_predOVC=494 fog_f1=0.235 anyprecip_f1=0.432 d1=0.641 d2=0.605
+A,W,N|f00+fc w1.0|s7 80 acc=0.625 macro_f1=0.336 sky_macro_f1=0.460 clear_f1=0.823 pc_f1=0.297 mc_f1=0.142 ovc_f1=0.577 obsOVC_predCLR=536 obsCLR_predOVC=515 fog_f1=0.241 anyprecip_f1=0.434 d1=0.643 d2=0.608
+A,W,N|f00+fc w2.0|s42 77 acc=0.629 macro_f1=0.329 sky_macro_f1=0.464 clear_f1=0.825 pc_f1=0.290 mc_f1=0.156 ovc_f1=0.586 obsOVC_predCLR=530 obsCLR_predOVC=493 fog_f1=0.239 anyprecip_f1=0.448 d1=0.646 d2=0.613
+A,W,N|f00+fc w2.0|s7 72 acc=0.629 macro_f1=0.336 sky_macro_f1=0.461 clear_f1=0.826 pc_f1=0.282 mc_f1=0.156 ovc_f1=0.581 obsOVC_predCLR=554 obsCLR_predOVC=462 fog_f1=0.244 anyprecip_f1=0.430 d1=0.645 d2=0.613
+A,W,N|fc only|s42 63 acc=0.627 macro_f1=0.290 sky_macro_f1=0.449 clear_f1=0.819 pc_f1=0.249 mc_f1=0.143 ovc_f1=0.584 obsOVC_predCLR=620 obsCLR_predOVC=467 fog_f1=0.242 anyprecip_f1=0.426 d1=0.638 d2=0.615
+A,W,N|fc only|s7 66 acc=0.627 macro_f1=0.292 sky_macro_f1=0.448 clear_f1=0.821 pc_f1=0.250 mc_f1=0.139 ovc_f1=0.583 obsOVC_predCLR=616 obsCLR_predOVC=465 fog_f1=0.236 anyprecip_f1=0.416 d1=0.641 d2=0.614

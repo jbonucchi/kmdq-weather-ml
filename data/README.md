@@ -9,4 +9,4 @@ Place the production-model training tables here:
 
 Columns: `valid_utc`, `source`, `run`, 122 model features, and `label`. Sample weights are applied in `train.py` and are not stored in these files.
 
-These Parquet files were not included in the initial commit because they are binary and larger than the GitHub file-upload API used to publish the repository allows. Add them with a normal `git push`.
+These two Parquet files are included in this repository.

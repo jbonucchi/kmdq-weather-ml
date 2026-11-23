@@ -49,7 +49,7 @@ The tables used to train the current production model have columns `valid_utc`, 
 
 The forecast-row count is 36,192, a few short of the 36,218 recorded in the model metadata, because of a slightly different cutoff for which forecast runs are included.
 
-Those two Parquet files and the production model weights (`models/model_KMDQ_prod.txt`, 5.5 MB) are not in the initial commit: the GitHub file-upload API used to publish this repository rejects the binary Parquet content and the model text is over the request size limit. The model metadata is in `models/model_KMDQ_prod.json`. Add the three files with a normal `git add` / `git push` from a local copy that already has them.
+Those two Parquet files and the production model weights (`models/model_KMDQ_prod.txt`, 5.5 MB) are included in this repository. The model metadata is in `models/model_KMDQ_prod.json`.
 
 ### Current benchmarks
 

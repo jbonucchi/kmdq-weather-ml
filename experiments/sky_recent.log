@@ -1,0 +1,3 @@
+current acc=0.775 macro_f1=0.222 sky_macro_f1=0.403 clear_f1=0.909 pc_f1=0.094 mc_f1=0.000 ovc_f1=0.610 obsOVC_predCLR=26 obsCLR_predOVC=42 fog_f1=0.050 anyprecip_f1=0.460
+new     acc=0.767 macro_f1=0.258 sky_macro_f1=0.377 clear_f1=0.905 pc_f1=0.000 mc_f1=0.036 ovc_f1=0.568 obsOVC_predCLR=30 obsCLR_predOVC=48 fog_f1=0.190 anyprecip_f1=0.455
+2026-11-06 {'current': 0.7296650717703349, 'new': 0.7105263157894737, 'n': 418, 'current_obsOVCBKN_predCLR': 26, 'current_obsCLR_predOVCBKN': 28, 'new_obsOVCBKN_predCLR': 29, 'new_obsCLR_predOVCBKN': 30}

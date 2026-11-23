@@ -1,0 +1,3 @@
+D-base-nosky acc=0.781 macro_f1=0.261 sky_macro_f1=0.376 clear_f1=0.911 pc_f1=0.000 mc_f1=0.000 ovc_f1=0.591 obsOVC_predCLR=31 obsCLR_predOVC=42 fog_f1=0.254 anyprecip_f1=0.442 since Nov6 0.751
+D-base-sky acc=0.779 macro_f1=0.267 sky_macro_f1=0.377 clear_f1=0.907 pc_f1=0.000 mc_f1=0.000 ovc_f1=0.602 obsOVC_predCLR=30 obsCLR_predOVC=44 fog_f1=0.262 anyprecip_f1=0.442 since Nov6 0.734
+D-A,W,N-nosky acc=0.774 macro_f1=0.268 sky_macro_f1=0.372 clear_f1=0.906 pc_f1=0.000 mc_f1=0.000 ovc_f1=0.583 obsOVC_predCLR=33 obsCLR_predOVC=46 fog_f1=0.265 anyprecip_f1=0.511 since Nov6 0.72

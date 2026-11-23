@@ -36,20 +36,20 @@ python3 train.py --test-end '2026-10-21 03:00'
 python3 lead_eval.py
 ```
 
-The included production model (`models/model_KMDQ_prod.txt` and `models/model_KMDQ_prod.json`) can be used with `predict_latest.py` without retraining. Raw HRRR day files and the `data/fcst_12z/` archive are not in this repository; rebuild them with `python3 fetch_hrrr.py --start 2021-01-01` and the update/forecast scripts if you need the full cache.
+Once `models/model_KMDQ_prod.txt` is present alongside `models/model_KMDQ_prod.json`, `predict_latest.py` can be used without retraining. Raw HRRR day files and the `data/fcst_12z/` archive are not in this repository; rebuild them with `python3 fetch_hrrr.py --start 2021-01-01` and the update/forecast scripts if you need the full cache.
 
 ### Training data
 
-The two Parquet files in `data/` are the tables used to train the current production model (features already joined to labels). They are not the raw HRRR archive.
+The tables used to train the current production model have columns `valid_utc`, `source`, `run`, 122 model features, and `label`. They are not the raw HRRR archive; features are already joined to labels. Sample weights are applied inside `train.py` (forecast hours count double; fog, drizzle, rain, and heavy rain are upweighted; class-weight power is 0.25) and are **not** stored in these files.
 
-| file | rows | contents |
-|---|---|---|
-| `data/KMDQ_training_analysis.parquet` | 50,947 | HRRR f00 analyses |
-| `data/KMDQ_training_forecast12z.parquet` | 36,192 | archived 12z forecast hours (f01–f48) |
+| file | size | rows | contents |
+|---|---|---|---|
+| `data/KMDQ_training_analysis.parquet` | 18.9 MB | 50,947 | HRRR f00 analyses |
+| `data/KMDQ_training_forecast12z.parquet` | 16.2 MB | 36,192 | archived 12z forecast hours (f01–f48) |
 
-Columns: `valid_utc`, `source`, `run`, 122 model features, and `label`. Sample weights are applied inside `train.py` (forecast hours count double; fog, drizzle, rain, and heavy rain are upweighted; class-weight power is 0.25) and are **not** stored in these files.
+The forecast-row count is 36,192, a few short of the 36,218 recorded in the model metadata, because of a slightly different cutoff for which forecast runs are included.
 
-The forecast-row count here is 36,192, a few short of the 36,218 recorded in the model metadata, because of a slightly different cutoff for which forecast runs are included.
+Those two Parquet files and the production model weights (`models/model_KMDQ_prod.txt`, 5.5 MB) are not in the initial commit: the GitHub file-upload API used to publish this repository rejects the binary Parquet content and the model text is over the request size limit. The model metadata is in `models/model_KMDQ_prod.json`. Add the three files with a normal `git add` / `git push` from a local copy that already has them.
 
 ### Current benchmarks
 
